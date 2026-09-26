@@ -1,0 +1,12 @@
+{
+  "name": "revisoria-sample-app",
+  "version": "1.0.0",
+  "description": "Tiny sample app used only to generate demo PRs for RevisorIA.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
