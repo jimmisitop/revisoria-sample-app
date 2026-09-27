@@ -1,4 +1,6 @@
+const { rateLimitMiddleware } = require('./rate-limit-middleware');
 const express = require('express');
+app.use(rateLimitMiddleware);
 const config = require('./config');
 
 const app = express();
